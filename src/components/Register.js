@@ -37,14 +37,14 @@ const Register = () => {
                     <div className="password">
                         <div class="password-eye">
                             <label for="password">Password:</label> 
-                            <a href=""><i class="fas fa-eye-slash"></i></a>
+                            <Link to="#"><i class="fas fa-eye-slash"></i></Link>
                         </div>
                         <input type="password" required /> <br />
                     </div>
                     <div className="password">
                         <div class="password-eye">
                             <label for="password">Confirm Password:</label> 
-                            <a href=""><i class="fas fa-eye-slash"></i></a>
+                            <Link to="#"><i class="fas fa-eye-slash"></i></Link>
                         </div>
                         <input type="password" required /> <br />
                     </div>
