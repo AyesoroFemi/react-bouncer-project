@@ -39,11 +39,26 @@
     text-decoration: none;
     color: black;
 }
-.sub-main .username > label, .sub-main .password > label{
+.sub-main .username > label{
     margin-bottom: 20px;
     font-weight: 400;
     color:rgb(34, 38, 42);
     font-size: 14px;
+}
+.sub-main .password .password-eye > label{
+    padding-bottom: -10px;
+    font-weight: 400;
+    color:rgb(34, 38, 42);
+    font-size: 14px;
+}
+
+.sub-main .password .password-eye {
+    display: flex;
+    justify-content: space-between;
+}
+.fas {
+    color: dodgerblue;
+    font-size: 12px;
 }
 input[type=text], input[type=password], input[type=submit]{
     margin-top: 10px;

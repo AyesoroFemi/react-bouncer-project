@@ -28,11 +28,17 @@ const Vendor = () => {
                     <input type="text" /> <br /> 
                 </div>
                 <div className="password">
-                    <label for="psrd">Password:</label><br />
+                        <div class="password-eye">
+                            <label for="password">Password:</label> 
+                            <a href=""><i class="fas fa-eye-slash"></i></a>
+                        </div>
                     <input type="password" required /> <br />
                 </div>
                 <div className="password">
-                    <label for="password">Confirm Password:</label><br />
+                        <div class="password-eye">
+                            <label for="password">Password:</label> 
+                            <a href=""><i class="fas fa-eye-slash"></i></a>
+                        </div>
                     <input type="password" required /> <br />
                 </div>
                 <input type="submit" value="Sign Up" />

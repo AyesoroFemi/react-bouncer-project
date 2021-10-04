@@ -21,7 +21,10 @@ const Login = () => {
                         <input type="text" /> <br />
                     </div>
                     <div className="password">
-                        <label for="password">Password</label><br />
+                        <div class="password-eye">
+                            <label for="password">Password:</label> 
+                            <a href=""><i class="fas fa-eye-slash"></i></a>
+                        </div>
                         <input type="password" required /> <br />
                     </div>
                     <input type="submit" value="Login" />
