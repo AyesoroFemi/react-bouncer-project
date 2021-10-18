@@ -1,18 +1,23 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import Login from './components/Login';
 import Register from './components/Register';
 import Vendor from './components/Vendor';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import ForgotPassword from './components/ForgotPassword';
 
+import Home from './Home';
+
 function App() {
   return (
    <Router>
       <div className="container">
-        <Navbar />
         <Switch>
             <Route exact path="/">
+               <Home />
+            </Route>
+        </Switch>
+        <Switch>
+            <Route path="/Login">
                <Login />
             </Route>
         </Switch>

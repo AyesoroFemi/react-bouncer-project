@@ -2,10 +2,14 @@ import { Link } from 'react-router-dom';
 import './styles/login.css';
 import './styles/register.css';
 import Laptop from './Laptop';
+import NavBar from './Navbar';
 
 const Register = () => {
     return (
-        <div className="main-container">
+        
+       <div>
+           <NavBar />
+            <div className="main-container">
             <div className="main">
                 <Laptop />
                 <div className='sub-main'>
@@ -60,6 +64,7 @@ const Register = () => {
                 </div>
             </div>
         </div>
+       </div>
     )
 }
 
