@@ -20,15 +20,14 @@ export const NavBarWrapper = styled.section`
         display: none;
         position: absolute;
         min-width: 400px;
-        height: 350px;
         z-index: 1;
-        box-shadow: 1px 1px 3px rgb(229, 225, 225);
     }
     .dropdown-menu > div{
         display: flex;
         max-width: 1000px;
         margin: 0 auto;
-        background-color: #F6F7F8;
+        background-color: #fff;
+        padding: 20px 0;
     }
     .stage-one > a, .stage-two > a, 
     .stage-three > a, .stage-four > a, 
@@ -37,6 +36,7 @@ export const NavBarWrapper = styled.section`
         color: black;
         cursor: pointer;
         display: block;
+        font-size: 14px;
     }
     .stage-two, .stage-three, .stage-four, .stage-five{
         margin: 0 30px;
