@@ -11,6 +11,7 @@ function App() {
   return (
    <Router>
       <div className="container">
+
         <Switch>
             <Route exact path="/">
                <Home />

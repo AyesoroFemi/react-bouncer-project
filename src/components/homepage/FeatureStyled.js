@@ -56,14 +56,43 @@ export const FeatureWrapper = styled.section`
     }
     .featured-sub div >img{
         border: 3px solid #F6F7F8;
+        height: 150px;
+        width: 150px;
+    }
+    .fas{
+        margin: 10px 0;
+        color: gold;
+    }
+    .price-tag{
+        margin-left: 15px;
+        color:#828588;
+        text-decoration: line-through;
+    
+    }
+   
+    .actual-price{
+        color: red;
     }
 
-    @media only screen and (max-width: 567px) {
+    .featured-sub > div:nth-child(2) p{
+        margin-top: 10px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .container-new > h1{
+            font-size: 28px;
+            margin: 30px 0;
+            text-align: center;
+            font-weight: 400;
+        }
         .featured-products{
             display: grid;
             grid-template-columns: 1fr;
             justify-content: center;
             margin: 20px 0;
+        }
+        .featured-sub > div:nth-child(2) p{
+            font-size: 14px;
         }
     }
    

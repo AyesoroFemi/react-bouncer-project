@@ -7,6 +7,7 @@ export const SliderWrapper = styled.section`
         width: 100%;
     }
     .container-hero{
+        transform: translateY(-50px);
         max-width: 1200px;
         margin: 0px auto;
         /* padding: 0 2rem;  */
@@ -17,16 +18,11 @@ export const SliderWrapper = styled.section`
     }
 
     @media only screen and (max-width: 767px){
-        .hero-category{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-column-gap: 10px;
+        .container-hero{
+            
+            padding: 0 2rem; 
         }
-        img {
-            object-fit: contain;
-            /* width: 100%; */
-            padding: 0 1rem;
-        }
+        
     }
 
 `

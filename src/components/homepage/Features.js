@@ -12,7 +12,7 @@ function Features() {
                             <img src="img/feature1.ce5ad103.png" alt="" />
                         </div>
                         <div>
-                            <p>Beats Solo 2 On Ear <br /> 
+                            <p>Beats Solo 2 On Ear
                                 Headphones-Black
                             </p>
                             <div className="star-rating">
@@ -23,6 +23,7 @@ function Features() {
                                 <i className="fas fa-star"></i>
                                 <i className="fas fa-star"></i>
                             </div>
+                            <p><span className="actual-price">$499</span> <span class="price-tag">$599</span></p>
                         </div>
                     </div>
                     <div className="featured-sub">
@@ -30,7 +31,7 @@ function Features() {
                             <img src="img/feature2.fa7b3d70.png" alt="" />
                         </div>
                         <div>
-                            <p>Beats Solo 2 On Ear <br />
+                            <p>Beats Solo 2 On Ear 
                                 Headphones-Black
                             </p>
                             <div className="star-rating">
@@ -41,6 +42,7 @@ function Features() {
                                 <i className="fas fa-star"></i>
                                 <i className="fas fa-star"></i>
                             </div>
+                            <p><span className="actual-price">$499</span> <span class="price-tag">$599</span></p>
                         </div>
                     </div>
                     <div className="featured-sub">
@@ -48,7 +50,7 @@ function Features() {
                             <img src="img/item3_sjz14g.png" alt="" />
                         </div>
                         <div>
-                            <p>Beats Solo 2 On Ear <br />
+                            <p>Beats Solo 2 On Ear
                                 Headphones-Black
                             </p>
                             <div className="star-rating">
@@ -59,6 +61,7 @@ function Features() {
                                 <i className="fas fa-star"></i>
                                 <i className="fas fa-star"></i>
                             </div>
+                            <p><span className="actual-price">$499</span> <span class="price-tag">$599</span></p>
                         </div>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ export const DisplayWrapper = styled.section`
         grid-template-columns: 1fr 1fr;
     }
     .iphone-display{
-        transform: translateY(-100px);
+        transform: translateY(-88px);
     }
     .iphone-plus div > h1{
         font-size: 48px;
@@ -29,12 +29,46 @@ export const DisplayWrapper = styled.section`
     .iphone-plus div > a{
         text-decoration: none;
         color: white;
-        
+        font-size: 16px;
     }
+    .iphone-display > img {
+            object-fit: cover;
+            width: 100%;
+        }
 
-    @media only screen and (max-width: 767px){
-        .iphone-display{
-            display: none;
-         }
+    .lines {
+        width: 75px;
+        background-color: white;
+        height: 3px;
     }
+    @media only screen and (max-width: 767px){
+        
+        
+         .iphone-plus div > h1{
+            font-size: 28px;
+            font-weight: 500;
+            margin: 20px 0 50px 0;
+        }
+        .iphone-plus div > p{
+            font-size: 16px;
+            margin-bottom: 20px;
+            
+        } 
+        
+         .iphone-plus div > a{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .iphone-display > img {
+            object-fit: contain;
+            width: 100%;
+        }
+        .iphone-display{
+              transform: translateY(105px);
+        }
+    } 
 `
