@@ -10,11 +10,11 @@ function NavItem() {
             </div>
                 <nav class="menu-bar">
                 <ul>
-                    <li><Link href="#">All</Link></li>
-                    <li><Link href="#">Mac</Link></li>
-                    <li><Link href="#">iPhone</Link></li>
-                    <li><Link href="#">iPad</Link></li>
-                    <li><Link href="#">Accessories</Link></li>
+                    <li><Link href="/">All</Link></li>
+                    <li><Link href="/">Mac</Link></li>
+                    <li><Link href="/">iPhone</Link></li>
+                    <li><Link href="/">iPad</Link></li>
+                    <li><Link href="/">Accessories</Link></li>
                 </ul>
                 </nav>
         </ItemWrapper>

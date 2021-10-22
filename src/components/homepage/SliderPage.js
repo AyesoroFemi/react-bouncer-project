@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { SliderWrapper } from './SliderPageStyled';
+import { Link } from 'react-router-dom';
 
 export default class SliderPage extends Component {
   render() {
@@ -14,12 +15,10 @@ export default class SliderPage extends Component {
         autoplay:true,
         slidesToShow: 1,
         slidesToScroll: 1,
-      autoplay: true,
-    //   speed: 500,
-      arrows: true,
-      autoplaySpeed: 2000,
-      cssEase: "linear",
-      className: "slides"
+        arrows: true,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        className: "slides"
     };
 
     return (
@@ -32,10 +31,10 @@ export default class SliderPage extends Component {
                         Lorem Ipsum is simply dummy text of <br /> the printing and typesetting industry. 
                         Lorem <br />  Ipsum has been the industry's standard <br /> dummy.
                     </p>
-                    <a href="#">MORE</a>
+                    <Link  href="#">MORE</Link >
                 </div>
                 <div style={{display:"flex", justifyContent:"end", paddingRight: 200}}>
-                    <img style={{objectFit:"contain"}} src="img/Mask.09b36980.png" alt="" />
+                    <img style={{objectFit:"contain"}} src="img/Mask.09b36980.png" alt="Iphone pic" />
                 </div>
           </div>
           <div className="slides-carousel">
@@ -45,10 +44,10 @@ export default class SliderPage extends Component {
                         Lorem Ipsum is simply dummy text of <br /> the printing and typesetting industry. 
                         Lorem <br />  Ipsum has been the industry's standard <br /> dummy.
                     </p>
-                    <a href="#">MORE</a>
+                    <Link href="#">MORE</Link >
                 </div>
                 <div style={{display:"flex", justifyContent:"end", paddingRight: 200}}>
-                    <img style={{objectFit:"contain"}} src="img/Mask.09b36980.png" alt="" />
+                    <img style={{objectFit:"contain"}} src="img/Mask.09b36980.png" alt="Iphone pic" />
                 </div>
           </div>
           <div className="slides-carousel">
@@ -58,10 +57,10 @@ export default class SliderPage extends Component {
                         Lorem Ipsum is simply dummy text of <br /> the printing and typesetting industry. 
                         Lorem <br />  Ipsum has been the industry's standard <br /> dummy.
                     </p>
-                    <a href="#">MORE</a>
+                    <Link href="#">MORE</Link>
                 </div>
                 <div style={{display:"flex", justifyContent:"end", paddingRight: 200}}>
-                    <img style={{objectFit:"contain"}} src="img/Mask.09b36980.png" alt="" />
+                    <img style={{objectFit:"contain"}} src="img/Mask.09b36980.png" alt="Iphone pic" />
                 </div>
           </div>
         </Slider>

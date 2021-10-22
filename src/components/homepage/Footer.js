@@ -13,17 +13,17 @@ function Footer() {
                         </p>
                     </div>
                     <div>
-                        <Link href="#"> 
-                             <img src="img/Western-union.4fe21200.svg" alt="" />
+                        <Link href="/"> 
+                             <img src="img/Western-union.4fe21200.svg" alt="Western-union pic" />
                         </Link>
-                        <Link href="#">
-                            <img src="img/mastercard.f8415f65.svg" alt="" />
+                        <Link href="/">
+                            <img src="img/mastercard.f8415f65.svg" alt="mastercard pic" />
                         </Link>
-                        <Link href="#">
-                             <img src="img/Paypal.50d087dc.svg" alt="" />
+                        <Link href="/">
+                             <img src="img/Paypal.50d087dc.svg" alt="aypal pic" />
                          </Link>
-                        <Link href="#">
-                            <img src="img/visas.63f8784c.svg" alt="" />
+                        <Link href="/">
+                            <img src="img/visas.63f8784c.svg" alt="visas pic" />
                         </Link>
                     </div>
                 </div>

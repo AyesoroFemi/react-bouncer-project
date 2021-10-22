@@ -10,7 +10,6 @@ export const SliderWrapper = styled.section`
         transform: translateY(-50px);
         max-width: 1200px;
         margin: 0px auto;
-        /* padding: 0 2rem;  */
     }
     .hero-category {
         display: grid;

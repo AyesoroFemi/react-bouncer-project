@@ -1,5 +1,6 @@
 import React from 'react'
 import { TopFooterWrapper } from './TopFooterStyled';
+import { Link } from 'react-router-dom';
 
 function TopFooter() {
     return (
@@ -7,7 +8,7 @@ function TopFooter() {
             <div className="container">
                 <div className="footer-top">
                     <div>
-                        <img src="img/logo.b701f098 (1).svg" alt="" />
+                        <img src="img/logo.b701f098 (1).svg" alt="bouncer-logo" />
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                             standard dummy text ever.Since the 1500s, when an unknown printer.
                         </p>
@@ -38,45 +39,45 @@ function TopFooter() {
                     <div>
                         <div>
                             <p>Information</p>
-                            <a href="#">About Us</a> <br />
-                            <a href="#">Information</a> <br />
-                            <a href="#">Privacy Policy</a> <br />
-                            <a href="#">Terms & Conditions</a>
+                            <Link href="/">About Us</Link> <br />
+                            <Link href="/">Information</Link> <br />
+                            <Link href="/">Privacy Policy</Link> <br />
+                            <Link href="/">Terms & Conditions</Link>
                         </div>
                         <div>
                             <p>Services</p>
-                            <a href="#">About Us</a> <br />
-                            <a href="#">Information</a> <br />
-                            <a href="#">Privacy Policy</a> <br />
-                            <a href="#">Terms & Conditions</a>
+                            <Link href="/">About Us</Link> <br />
+                            <Link href="/">Information</Link> <br />
+                            <Link href="/">Privacy Policy</Link> <br />
+                            <Link href="/">Terms & Conditions</Link>
                         </div>
                         <div>
                             <p>Extras</p>
-                            <a href="#">About Us</a> <br />
-                            <a href="#">Information</a> <br />
-                            <a href="#">Privacy Policy</a> <br />
-                            <a href="#">Terms & Conditions</a>
+                            <Link href="/">About Us</Link> <br />
+                            <Link href="/">Information</Link> <br />
+                            <Link href="/">Privacy Policy</Link> <br />
+                            <Link href="/">Terms & Conditions</Link>
                         </div>
                         <div>
                             <p>My Account</p>
-                            <a href="#">About Us</a> <br />
-                            <a href="#">Information</a> <br />
-                            <a href="#">Privacy Policy</a> <br />
-                            <a href="#">Terms & Conditions</a>
+                            <Link href="/">About Us</Link> <br />
+                            <Link href="/">Information</Link> <br />
+                            <Link href="/">Privacy Policy</Link> <br />
+                            <Link href="/">Terms & Conditions</Link>
                         </div>
                         <div>
                             <p>Useful Links</p>
-                            <a href="#">About Us</a> <br />
-                            <a href="#">Information</a> <br />
-                            <a href="#">Privacy Policy</a> <br />
-                            <a href="#">Terms & Conditions</a>
+                            <Link href="/">About Us</Link> <br />
+                            <Link href="/">Information</Link> <br />
+                            <Link href="/">Privacy Policy</Link> <br />
+                            <Link href="/">Terms & Conditions</Link>
                         </div>
                         <div>
                             <p>Our Offers</p>
-                            <a href="#">About Us</a> <br />
-                            <a href="#">Information</a> <br />
-                            <a href="#">Privacy Policy</a> <br />
-                            <a href="#">Terms & Conditions</a>
+                            <Link href="/">About Us</Link> <br />
+                            <Link href="/">Information</Link> <br />
+                            <Link href="/">Privacy Policy</Link> <br />
+                            <Link href="/">Terms & Conditions</Link>
                         </div>
                     </div>
                 </div>

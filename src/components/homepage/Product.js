@@ -9,7 +9,7 @@ function Product() {
                     <div className="laptop-card">
                         <span className="hot-sale">Hot</span>
                         <div>
-                            <img src="img/lp.c11683f6.png" alt="" />
+                            <img src="img/lp.c11683f6.png" alt="item_object" />
                             <h3>Apple Macbook Pro</h3>
                         </div>
                         <div className="star-rating">
@@ -25,7 +25,7 @@ function Product() {
                     <div className="laptop-card">
                         <span className="hot-sale">Hot</span>
                         <div>
-                            <img src="img/lp.c11683f6.png" alt="" />
+                            <img src="img/lp.c11683f6.png" alt="item_object" />
                             <h3>Apple Macbook Pro</h3>
                         </div>
                         <div className="star-rating">
@@ -41,7 +41,7 @@ function Product() {
                     <div className="laptop-card">
                         <span className="hot-sale">Hot</span>
                         <div>
-                            <img src="img/lp.c11683f6.png" alt="" />
+                            <img src="img/lp.c11683f6.png" alt="item_object" />
                             <h3>Apple Macbook Pro</h3>
                         </div>
                         <div className="star-rating">
@@ -57,7 +57,7 @@ function Product() {
                     <div className="laptop-card">
                         <span className="hot-sale">Hot</span>
                         <div>
-                            <img src="img/lp.c11683f6.png" alt="" />
+                            <img src="img/lp.c11683f6.png" alt="item_object" />
                             <h3>Apple Macbook Pro</h3>
                         </div>
                         <div className="star-rating">
@@ -73,7 +73,7 @@ function Product() {
                     <div className="laptop-card">
                         <span className="hot-sale">Hot</span>
                         <div>
-                            <img src="img/lp.c11683f6.png" alt="" />
+                            <img src="img/lp.c11683f6.png" alt="item_object" />
                             <h3>Apple Macbook Pro</h3>
                         </div>
                         <div className="star-rating">
@@ -89,7 +89,7 @@ function Product() {
                     <div className="laptop-card">
                         <span className="hot-sale">Hot</span>
                         <div>
-                            <img src="img/lp.c11683f6.png" alt="" /> 
+                            <img src="img/lp.c11683f6.png" alt="item_object" /> 
                             <h3>Apple Macbook Pro</h3>
                         </div>
                         <div className="star-rating">

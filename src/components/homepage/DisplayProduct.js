@@ -9,11 +9,11 @@ function DisplayProduct() {
                 <div>
                     <h1>iPhone 6 Plus</h1>
                     <p>Performance and design. Taken right to the edge</p>
-                    <Link href="#">SHOP NOW</Link>
+                    <Link href="/">SHOP NOW</Link>
                     <p class="lines"></p>
                 </div>
                 <div className="iphone-display">
-                    <img src="img/pic.35f166b7.png" alt="" />
+                    <img src="img/pic.35f166b7.png" alt="iphone-display" />
                 </div>
             </div>
         </DisplayWrapper>

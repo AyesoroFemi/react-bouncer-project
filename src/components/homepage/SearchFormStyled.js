@@ -9,12 +9,10 @@ export const FormWrapper = styled.section`
         display: flex;
         justify-content: center;
         margin: 150px 0;
-            /* border: 2px solid yellow; */
     }
     input[type=text]{
         padding: 15px 10px;
         width: 50%;
-        /* border-radius: 4px; */
         outline: none;
         border: 2px solid rgb(241, 243, 244);
         font-size: 18px;

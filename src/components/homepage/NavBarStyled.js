@@ -12,7 +12,6 @@ export const NavBarWrapper = styled.section`
         text-decoration: none;
         color: black;
         cursor: pointer;
-        /* display: block; */
     }
     nav div > a:hover{
         color: grey;
@@ -30,7 +29,6 @@ export const NavBarWrapper = styled.section`
         max-width: 1000px;
         margin: 0 auto;
         background-color: #F6F7F8;
-        /* flex-wrap: wrap; */
     }
     .stage-one > a, .stage-two > a, 
     .stage-three > a, .stage-four > a, 
@@ -52,8 +50,6 @@ export const NavBarWrapper = styled.section`
     }
     .right-menu {
         position: relative;
-        /* display: inline-block; */
-        /* float: center; */
     }
     .right-menu:hover .dropdown-menu{
         display: block;
