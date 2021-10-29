@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
         <div className="Logo">
-          <img src="./logo_alcxme.svg" alt="" />
+            <Link to="/">  <img src="./logo_alcxme.svg" alt="" /></Link>
         </div>
     )
 }

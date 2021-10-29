@@ -7,7 +7,7 @@ function NavBarPage() {
         <NavBarWrapper>
             <nav>
                 <div>
-                    <Link href="/">HOME</Link>
+                    <Link to="/">HOME</Link>
                     <div className="right-menu">
                         <Link href="/">STORE</Link>
                         <div className="dropdown-menu">
@@ -51,7 +51,17 @@ function NavBarPage() {
                     <Link href="/">IPAD</Link>
                     <Link href="/">MACBOOK</Link>
                     <Link href="/">ACCESSORIES</Link>
-                
+                    <Link style={{
+                        borderBottomColor: 'red',
+                        borderBottomWidth: 5,
+                        borderBottomStyle: 'solid',
+                        paddingTop: 2,
+                        paddingBottom: 2,
+                        paddingLeft: 2,
+                        paddingRight: 2,
+                        marginTop: -5,
+                        fontWeight: 'bold'
+                    }} to="/Login">LOGIN</Link>
                 </div>
             </nav> 
         </NavBarWrapper>

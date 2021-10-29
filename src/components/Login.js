@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import './styles/login.css';
 import Laptop from './Laptop.js';
+import NavBar from './Navbar';
 const Login = () => {
     return (
-   
-       <div class="main-container">
+        
+           <div className="main-container">
+               <NavBar />
             <div className="main">
                 <Laptop />
                 <div className='sub-main'>

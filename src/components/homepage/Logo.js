@@ -4,7 +4,7 @@ const Logo = () => {
     return (
            <BounceWrapper>
                  <div className="Logo">
-                     <img src="./logo_alcxme.svg" alt="bouncer_logo" />
+                     <img src="img/logo_alcxme.svg" alt="bouncer_logo" />
                  </div>
             </BounceWrapper>
     )

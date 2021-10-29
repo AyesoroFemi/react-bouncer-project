@@ -2,10 +2,12 @@ import { Link } from 'react-router-dom';
 import Laptop from './Laptop';
 import './styles/login.css';
 import './styles/forget.css';
+import NavBar from './Navbar';
 
 const ForgotPassword = () => {
     return (
         <div className="main-container">
+            <NavBar/>
             <div className="main">
                 <Laptop />
                 <div className='sub-main'>

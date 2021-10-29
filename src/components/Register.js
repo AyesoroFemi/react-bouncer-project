@@ -8,14 +8,15 @@ const Register = () => {
     return (
         
        <div>
-           <NavBar />
+          
             <div className="main-container">
+                <NavBar />
             <div className="main">
                 <Laptop />
                 <div className='sub-main'>
                     <div className="heading">
                         <div>
-                            <Link class="sign-in" to="/">Sign in</Link>
+                            <Link class="sign-in" to="/Login">Sign in</Link>
                         </div>
                         <div className="register">
                             <Link to="/register">Register</Link>
