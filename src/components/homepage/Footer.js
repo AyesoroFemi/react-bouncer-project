@@ -9,7 +9,7 @@ function Footer() {
                 <div>
                     <div>
                         <p>
-                            © 2018 Ecommerce theme by www.bisenbaev.com
+                            © 2021 Built by Femi Ayesoro
                         </p>
                     </div>
                     <div>
